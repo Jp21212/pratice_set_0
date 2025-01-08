@@ -1,14 +1,10 @@
-def convert(text):
-    # Replace :) with 🙂 and :( with 🙁
-    text = text.replace(":)", "🙂")
-    text = text.replace(":(", "🙁")
+def main():
+    input_text = input()
+    print(upper_case_change(input_text).lower())
+
+
+def upper_case_change(text):
+    text
     return text
 
-def main():
-    user_input = input("")
-
-    result = convert(user_input)
-    print(result)
-
-if __name__ == "__main__":
-    main()
+main()
